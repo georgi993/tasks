@@ -37,7 +37,6 @@ public class Pyramid {
     public static void printPyramid(Map<Integer, List<Integer>> rows) {
         List<Integer> keys = new ArrayList<>(rows.keySet());
        // Collections.sort(keys);
-
         List<String> rowStrings = new ArrayList<>();
         int maxWidth = 0;
         for (Integer key : keys) {
